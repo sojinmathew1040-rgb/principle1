@@ -262,7 +262,7 @@ include 'header.php';
           <tbody>
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Pricing & Fee Structure</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">$60K-$90K Fixed Salary + Benefits</td>
+              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">As per broker requirements</td>
               <td style="padding:18px 20px; text-align:center; color:var(--accent-gold-light); font-weight:700;">Pay Only When Loan Closes</td>
             </tr>
             <tr style="border-bottom:1px solid var(--border-glass);">
@@ -272,7 +272,7 @@ include 'header.php';
             </tr>
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Operating Window</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">9 AM - 5 PM Local Hours</td>
+              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">24 * 7 Support</td>
               <td style="padding:18px 20px; text-align:center; color:var(--accent-emerald); font-weight:700;">All US Time Zones (EST, CST, MST, PST)</td>
             </tr>
             <tr style="border-bottom:1px solid var(--border-glass);">
