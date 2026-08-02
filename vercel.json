@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "routes": [
+    { "src": "/index", "dest": "/index.html" },
+    { "src": "/about", "dest": "/about.html" },
+    { "src": "/services", "dest": "/services.html" },
+    { "src": "/contact", "dest": "/contact.html" }
+  ]
+}
