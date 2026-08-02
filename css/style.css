@@ -197,13 +197,23 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 104px;
+  height: 108px;
 }
 
 .brand-logo {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.brand-logo img {
+  height: 96px;
+  width: auto;
+  max-width: 480px;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 12px rgba(56, 189, 248, 0.55));
+  transition: all var(--transition-fast);
 }
 
 .nav-menu {
@@ -1157,12 +1167,18 @@ footer {
 /* Responsive Media Queries */
 @media (max-width: 992px) {
   .nav-container {
-    height: 80px;
+    height: 96px;
+    padding: 0 20px;
+  }
+
+  .header-nav .brand-logo img {
+    height: 82px !important;
+    max-width: 340px !important;
   }
 
   .nav-menu {
     position: fixed;
-    top: 80px;
+    top: 96px;
     left: 0;
     width: 100vw;
     background: #0B192C !important;
@@ -1232,22 +1248,6 @@ footer {
   }
 }
 
-@media (max-width: 576px) {
-  .nav-container {
-    height: 72px;
-    padding: 0 16px;
-  }
-
-  .brand-logo img {
-    height: 46px !important;
-    max-width: 180px !important;
-  }
-
-  .nav-actions .btn-sm {
-    display: none !important;
-  }
-}
-
 /* Floating WhatsApp Widget */
 .floating-whatsapp {
   position: fixed;
@@ -1275,6 +1275,26 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    height: 92px;
+    padding: 0 16px;
+  }
+
+  .nav-menu {
+    top: 92px;
+  }
+
+  .header-nav .brand-logo img {
+    height: 80px !important;
+    max-width: 290px !important;
+  }
+
+  .footer-col .brand-logo img,
+  .footer-widget .brand-logo img {
+    height: 78px !important;
+    max-width: 320px !important;
+  }
+
   .floating-whatsapp {
     bottom: 20px;
     right: 20px;
@@ -1306,6 +1326,30 @@ footer {
 }
 
 @media (max-width: 576px) {
+  .nav-container {
+    height: 88px;
+    padding: 0 14px;
+  }
+
+  .nav-menu {
+    top: 88px;
+  }
+
+  .header-nav .brand-logo img {
+    height: 78px !important;
+    max-width: 75vw !important;
+  }
+
+  .footer-col .brand-logo img,
+  .footer-widget .brand-logo img {
+    height: 75px !important;
+    max-width: 280px !important;
+  }
+
+  .nav-actions .btn-sm {
+    display: none !important;
+  }
+
   .hero-content h1 {
     font-size: 1.9rem;
     line-height: 1.25;
@@ -1313,11 +1357,6 @@ footer {
   
   .section-header h2 {
     font-size: 1.6rem;
-  }
-
-  .brand-logo img {
-    height: 40px !important;
-    max-width: 170px !important;
   }
 
   .nav-actions .btn-sm {
@@ -1348,6 +1387,6 @@ footer {
   }
 
   .container {
-    padding: 0 16px;
+    padding: 0 14px;
   }
 }
