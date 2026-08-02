@@ -74,7 +74,7 @@ if (empty($currentPage)) {
   <header class="header-nav" id="headerNav">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" style="display:flex; align-items:center;">
-        <img src="images/logo.png" alt="Principle 1 Professional Services" style="height:72px; width:auto; max-width:320px; display:block; object-fit:contain;">
+        <img src="images/logo_dark_header.png" alt="Principle 1 Professional Services" style="height:64px; width:auto; max-width:320px; display:block; object-fit:contain;">
       </a>
 
       <nav class="nav-menu" id="navMenu">
