@@ -9,22 +9,19 @@ include 'header.php';
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="hero-bg-overlay"></div>
-    <div class="container hero-grid">
+    <div class="container hero-grid" style="grid-template-columns:1fr; max-width:900px; text-align:center;">
       <div class="hero-content">
         <div class="subtitle-badge subtitle-badge-gold">
-          <i class="fa-solid fa-award"></i> Processor Exp — US Mortgage Solutions
+          <i class="fa-solid fa-award"></i> 15+ Years Processor Exp — US Mortgage Solutions
         </div>
         <h1>
           Premier <span class="text-gradient-cyan">End-to-End</span> US Mortgage Processing & Back-Office
         </h1>
-        <p class="hero-desc">
-          Empowering US Mortgage Brokers, Wholesale Lenders, & Loan Officers with 100% compliant, rapid-turnaround processing, AUS underwriting support, closing/funding coordination, & pre/post-closing audit services.
+        <p class="hero-desc" style="margin:0 auto 36px auto;">
+          Empowering US Mortgage Brokers, Wholesale Lenders, & Loan Officers across all US time zones with 100% compliant, rapid-turnaround processing, AUS underwriting support, closing/funding coordination, & pre/post-closing audit services.
         </p>
 
-        <div class="hero-cta-group">
-          <!-- <a href="https://wa.me/971585738055" target="_blank" class="btn btn-primary">
-            <i class="fa-brands fa-whatsapp"></i> Request a Consultation
-          </a> -->
+        <div class="hero-cta-group" style="justify-content:center;">
           <a href="https://wa.me/971585738055" target="_blank" class="btn btn-gold">
             <i class="fa-solid fa-handshake"></i> Partner With Us
           </a>
@@ -33,7 +30,7 @@ include 'header.php';
           </a>
         </div>
 
-        <div class="hero-tags-list">
+        <div class="hero-tags-list" style="justify-content:center;">
           <div class="hero-tag-item">
             <i class="fa-solid fa-circle-check"></i> Performance-Based (Pay Upon Closing)
           </div>
@@ -41,44 +38,9 @@ include 'header.php';
             <i class="fa-solid fa-circle-check"></i> Target ≤10 Conditions / 2-Touch Approval
           </div>
           <div class="hero-tag-item">
-            <i class="fa-solid fa-circle-check"></i> FHA, VA, USDA & Conventional
+            <i class="fa-solid fa-circle-check"></i> All US Time Zones (EST, CST, MST, PST)
           </div>
         </div>
-      </div>
-
-      <!-- Hero Calculator Widget -->
-      <div class="calc-widget-card">
-        <div class="calc-widget-header">
-          <h3><i class="fa-solid fa-calculator"></i> Savings & Efficiency Estimator</h3>
-          <span class="subtitle-badge" style="margin:0; padding:4px 10px; font-size:0.75rem;">Interactive</span>
-        </div>
-
-        <div class="calc-field">
-          <label for="rangeVolume">
-            <span>Monthly Loan Volume</span>
-            <span class="val" id="volumeVal">15 Loans</span>
-          </label>
-          <input type="range" id="rangeVolume" min="5" max="100" value="15" step="5" class="calc-range">
-        </div>
-
-        <p style="font-size:0.88rem; color:var(--text-sub);">
-          Estimate your monthly operational savings & hours returned to your originators when outsourcing to Principle1.
-        </p>
-
-        <div class="calc-results-grid">
-          <div class="calc-res-item">
-            <div class="res-num" id="estSavings">$6,750</div>
-            <div class="res-lbl">Monthly Overhead Savings</div>
-          </div>
-          <div class="calc-res-item">
-            <div class="res-num" id="estHours">225 hrs</div>
-            <div class="res-lbl">Time Saved for Loan Officers</div>
-          </div>
-        </div>
-
-        <a href="https://wa.me/971585738055" target="_blank" class="btn btn-outline btn-sm" style="width:100%; margin-top:20px;">
-          <i class="fa-brands fa-whatsapp"></i> Get Started with Custom Plan
-        </a>
       </div>
     </div>
   </section>
@@ -100,8 +62,8 @@ include 'header.php';
           <div class="stat-label">Clear-to-Close Accuracy</div>
         </div>
         <div class="stat-card">
-          <div class="stat-num">24<span>/7</span></div>
-          <div class="stat-label">Back-Office Coverage</div>
+          <div class="stat-num">All<span> US</span></div>
+          <div class="stat-label">Time Zones Coverage</div>
         </div>
       </div>
     </div>
@@ -254,7 +216,7 @@ include 'header.php';
           <ul class="tab-checklist">
             <li><i class="fa-solid fa-circle-check"></i> Performance-Based Pricing: You only pay when the loan successfully closes.</li>
             <li><i class="fa-solid fa-circle-check"></i> Zero Fixed Overhead: Scale your processing capacity up or down dynamically based on market volume.</li>
-            <li><i class="fa-solid fa-circle-check"></i> Seamless LOS Integration: Encompass, Calyx Point, BytePro, ARIVE, & Mortgage Builder expertise.</li>
+            <li><i class="fa-solid fa-circle-check"></i> Seamless LOS Integration: Encompass, Calyx Point, LendingPad, BytePro, ARIVE, & Mortgage Builder expertise.</li>
           </ul>
         </div>
         <div class="tab-image-wrap">
@@ -269,7 +231,7 @@ include 'header.php';
           <p>We envision a future where mortgage originators focus 100% of their energy on borrower relationships and sales growth, while Principle1 handles the entire back-office machinery with zero defect audit accuracy.</p>
           <ul class="tab-checklist">
             <li><i class="fa-solid fa-circle-check"></i> Target under 10 conditions per underwriting submission.</li>
-            <li><i class="fa-solid fa-circle-check"></i> Dedicated Senior Lead Processor assigned to your broker account.</li>
+            <li><i class="fa-solid fa-circle-check"></i> Seasoned processors averaging 15+ years of US mortgage experience.</li>
             <li><i class="fa-solid fa-circle-check"></i> Real-time status reporting and daily pipeline milestones.</li>
           </ul>
         </div>
@@ -281,8 +243,8 @@ include 'header.php';
       <!-- Tab 3: Speed -->
       <div class="tab-content-panel" id="tabSpeed">
         <div class="tab-text">
-          <h3>Rapid Turnaround & 2-Touch Approvals</h3>
-          <p>Speed is critical to locking rates and satisfying realtors. Our 24/7 processing workflow ensures disclosures, orders, and condition resubmissions happen overnight without delay.</p>
+          <h3>Rapid Turnaround Across All US Time Zones</h3>
+          <p>Speed is critical to locking rates and satisfying realtors. Our dedicated coverage across all US time zones (EST, CST, MST, PST) ensures disclosures, orders, and condition resubmissions happen without delay.</p>
           <ul class="tab-checklist">
             <li><i class="fa-solid fa-circle-check"></i> 24-Hour Turnaround on Initial File Setup & Disclosures.</li>
             <li><i class="fa-solid fa-circle-check"></i> Direct Underwriter follow-ups to clear conditions instantly.</li>

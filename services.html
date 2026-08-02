@@ -50,12 +50,20 @@
       "postalCode": "683111",
       "addressCountry": "IN"
     },
-    "founder": {
-      "@type": "Person",
-      "name": "Nikhil George Bose",
-      "jobTitle": "Founder & Managing Director",
-      "sameAs": "https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/"
-    },
+    "founders": [
+      {
+        "@type": "Person",
+        "name": "Nikhil George Bose",
+        "jobTitle": "Founder & Managing Director",
+        "sameAs": "https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/"
+      },
+      {
+        "@type": "Person",
+        "name": "Georgee Jacob",
+        "jobTitle": "Founder & Managing Director",
+        "email": "George@principle1pro.com"
+      }
+    ],
     "areaServed": "US",
     "sameAs": [
       "https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/"
@@ -69,7 +77,7 @@
   <header class="header-nav" id="headerNav">
     <div class="container nav-container">
       <a href="index.html" class="brand-logo" style="display:flex; align-items:center;">
-        <img src="images/logo.png" alt="Principle 1 Professional Services" style="height:64px; width:auto; max-width:300px; border-radius:10px; background:#FFFFFF; padding:6px 16px; display:block; object-fit:contain; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        <img src="images/logo_dark_header.png" alt="Principle 1 Professional Services" style="height:82px; width:auto; max-width:400px; display:block; object-fit:contain; filter:drop-shadow(0 2px 12px rgba(56,189,248,0.55));">
       </a>
 
       <nav class="nav-menu" id="navMenu">
@@ -80,9 +88,6 @@
       </nav>
 
       <div class="nav-actions">
-        <a href="https://wa.me/971585738055" target="_blank" class="btn btn-primary btn-sm">
-          <i class="fa-brands fa-whatsapp"></i> Get Started
-        </a>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
           <i class="fa-solid fa-bars"></i>
         </button>
@@ -116,7 +121,7 @@
         <div class="glass-card service-card">
           <div class="service-icon-box"><i class="fa-solid fa-user-gear"></i></div>
           <h3>Processor Exp - US Mortgage</h3>
-          <p>Senior processors averaging 8+ years experience in US residential loan origination guidelines, credit analysis, and complex income structures.</p>
+          <p>Senior processors averaging 15+ years experience in US residential loan origination guidelines, credit analysis, and complex income structures.</p>
           <ul class="service-features-list">
             <li><i class="fa-solid fa-check"></i> Initial 1003 & Document Audit</li>
             <li><i class="fa-solid fa-check"></i> Credit & Liability Analysis</li>
@@ -317,6 +322,14 @@
             <p>Rate & Term / Cash-Out Net Benefit</p>
           </div>
         </div>
+
+        <div class="product-pill-card">
+          <div class="product-icon"><i class="fa-solid fa-cloud"></i></div>
+          <div class="product-info">
+            <h5>LendingPad LOS</h5>
+            <p>Cloud Loan Origination & Submissions</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -335,7 +348,7 @@
           <thead>
             <tr style="background:rgba(6, 10, 20, 0.8); border-bottom:1px solid var(--border-glass);">
               <th style="padding:20px; text-align:left; font-family:var(--font-heading); font-size:1.05rem;">Operational Feature</th>
-              <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--text-muted);">Traditional In-House Processor</th>
+              <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--text-muted);">Traditional In-House / Third-Party Processor</th>
               <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--accent-cyan);">Principle1 Back-Office Partnership</th>
             </tr>
           </thead>
@@ -343,7 +356,7 @@
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Pricing & Fee Structure</td>
               <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">$60K-$90K Fixed Salary + Benefits</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-gold-light); font-weight:700;">Performance-Based (Pay Only Upon Closing)</td>
+              <td style="padding:18px 20px; text-align:center; color:var(--accent-gold-light); font-weight:700;">Pay Only When Loan Closes</td>
             </tr>
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Volume Flexibility</td>
@@ -353,7 +366,7 @@
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Operating Window</td>
               <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">9 AM - 5 PM Local Hours</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-emerald); font-weight:700;">24/7 Overnight Processing Execution</td>
+              <td style="padding:18px 20px; text-align:center; color:var(--accent-emerald); font-weight:700;">All US Time Zones (EST, CST, MST, PST)</td>
             </tr>
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Underwriting Touches</td>
@@ -431,9 +444,10 @@
           <h4>Contact & Hours</h4>
           <p style="margin-bottom:12px; line-height:1.5; color:#CBD5E1;"><i class="fa-solid fa-location-dot" style="color:#38BDF8;"></i> <strong style="color:#FFFFFF;">Skyline Builders</strong>, Cochin Airport Rd, Nedumbassery, Ernakulam, Kerala – 683111, India</p>
           <p style="margin-bottom:8px;"><a href="tel:+19728486868" style="color:#94A3B8;"><i class="fa-solid fa-phone" style="color:#38BDF8;"></i> US Call: <strong style="color:#FFFFFF;">+1 (972) 848-6868</strong></a></p>
-          <p style="margin-bottom:12px;"><a href="https://wa.me/971585738055" target="_blank" style="color:#25D366; font-weight:600;"><i class="fa-brands fa-whatsapp"></i> WhatsApp: +971 58 573 8055</a></p>
-          <p style="margin-bottom:12px;"><a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a></p>
-          <p style="color:#F59E0B; font-weight:600;"><i class="fa-solid fa-clock"></i> Mon - Fri: 6:30 PM - 4:30 AM (EST Operating Window)</p>
+          <p style="margin-bottom:10px;"><a href="https://wa.me/971585738055" target="_blank" style="color:#25D366; font-weight:600;"><i class="fa-brands fa-whatsapp"></i> WhatsApp: +971 58 573 8055</a></p>
+          <p style="margin-bottom:6px;"><a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a></p>
+          <p style="margin-bottom:12px;"><a href="mailto:George@principle1pro.com" style="color:#F59E0B; font-weight:600;"><i class="fa-solid fa-envelope"></i> George@principle1pro.com</a></p>
+          <p style="color:#38BDF8; font-weight:600; font-size:0.85rem;"><i class="fa-solid fa-clock"></i> Coverage Across All US Time Zones (EST, CST, MST, PST)</p>
         </div>
       </div>
 

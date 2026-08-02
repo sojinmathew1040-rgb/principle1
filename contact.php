@@ -51,9 +51,9 @@ include 'header.php';
           <div class="detail-item">
             <div class="detail-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
             <div class="detail-text">
-              <h5>Email Inquiries</h5>
-              <p><a href="mailto:nick@principle1pro.com" style="color:var(--accent-cyan); font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a></p>
-              <p><a href="mailto:processing@principle1.com">processing@principle1.com</a></p>
+              <h5>Executive Leadership Emails</h5>
+              <p><a href="mailto:nick@principle1pro.com" style="color:var(--accent-cyan); font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a> (Nikhil George Bose)</p>
+              <p><a href="mailto:George@principle1pro.com" style="color:var(--accent-gold-light); font-weight:600;"><i class="fa-solid fa-envelope"></i> George@principle1pro.com</a> (Georgee Jacob)</p>
             </div>
           </div>
 
@@ -74,9 +74,9 @@ include 'header.php';
           <div class="detail-item">
             <div class="detail-icon"><i class="fa-solid fa-clock"></i></div>
             <div class="detail-text">
-              <h5>US Desk Operating Hours</h5>
-              <p style="color:var(--accent-gold-light); font-weight:600;">Monday – Friday: 6:30 PM – 4:30 AM (EST Window)</p>
-              <p>Saturday & Sunday: Emergency On-Call Duty</p>
+              <h5>US Operating Hours</h5>
+              <p style="color:var(--accent-gold-light); font-weight:600;">Coverage Across All US Time Zones (EST, CST, MST, PST)</p>
+              <p style="font-size:0.88rem; color:var(--text-sub);">Monday – Friday: Active Processing & Condition Clearance<br>Saturday & Sunday: Emergency On-Call Duty</p>
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@ include 'header.php';
         <div class="glass-card service-card">
           <div class="service-icon-box"><i class="fa-solid fa-user-gear"></i></div>
           <h3>Processor Exp - US Mortgage</h3>
-          <p>Senior processors averaging 8+ years experience in US residential loan origination guidelines, credit analysis, and complex income structures.</p>
+          <p>Senior processors averaging 15+ years experience in US residential loan origination guidelines, credit analysis, and complex income structures.</p>
           <ul class="service-features-list">
             <li><i class="fa-solid fa-check"></i> Initial 1003 & Document Audit</li>
             <li><i class="fa-solid fa-check"></i> Credit & Liability Analysis</li>
@@ -229,6 +229,14 @@ include 'header.php';
             <p>Rate & Term / Cash-Out Net Benefit</p>
           </div>
         </div>
+
+        <div class="product-pill-card">
+          <div class="product-icon"><i class="fa-solid fa-cloud"></i></div>
+          <div class="product-info">
+            <h5>LendingPad LOS</h5>
+            <p>Cloud Loan Origination & Submissions</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -247,7 +255,7 @@ include 'header.php';
           <thead>
             <tr style="background:rgba(6, 10, 20, 0.8); border-bottom:1px solid var(--border-glass);">
               <th style="padding:20px; text-align:left; font-family:var(--font-heading); font-size:1.05rem;">Operational Feature</th>
-              <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--text-muted);">Traditional In-House Processor</th>
+              <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--text-muted);">Traditional In-House / Third-Party Processor</th>
               <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--accent-cyan);">Principle1 Back-Office Partnership</th>
             </tr>
           </thead>
@@ -255,7 +263,7 @@ include 'header.php';
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Pricing & Fee Structure</td>
               <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">$60K-$90K Fixed Salary + Benefits</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-gold-light); font-weight:700;">Performance-Based (Pay Only Upon Closing)</td>
+              <td style="padding:18px 20px; text-align:center; color:var(--accent-gold-light); font-weight:700;">Pay Only When Loan Closes</td>
             </tr>
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Volume Flexibility</td>
@@ -265,7 +273,7 @@ include 'header.php';
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Operating Window</td>
               <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">9 AM - 5 PM Local Hours</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-emerald); font-weight:700;">24/7 Overnight Processing Execution</td>
+              <td style="padding:18px 20px; text-align:center; color:var(--accent-emerald); font-weight:700;">All US Time Zones (EST, CST, MST, PST)</td>
             </tr>
             <tr style="border-bottom:1px solid var(--border-glass);">
               <td style="padding:18px 20px; font-weight:600;">Underwriting Touches</td>

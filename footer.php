@@ -43,9 +43,10 @@
           <h4>Contact & Hours</h4>
           <p style="margin-bottom:12px; line-height:1.5; color:#CBD5E1;"><i class="fa-solid fa-location-dot" style="color:#38BDF8;"></i> <strong style="color:#FFFFFF;">Skyline Builders</strong>, Cochin Airport Rd, Nedumbassery, Ernakulam, Kerala – 683111, India</p>
           <p style="margin-bottom:8px;"><a href="tel:+19728486868" style="color:#94A3B8;"><i class="fa-solid fa-phone" style="color:#38BDF8;"></i> US Call: <strong style="color:#FFFFFF;">+1 (972) 848-6868</strong></a></p>
-          <p style="margin-bottom:12px;"><a href="https://wa.me/971585738055" target="_blank" style="color:#25D366; font-weight:600;"><i class="fa-brands fa-whatsapp"></i> WhatsApp: +971 58 573 8055</a></p>
-          <p style="margin-bottom:12px;"><a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a></p>
-          <p style="color:#F59E0B; font-weight:600;"><i class="fa-solid fa-clock"></i> Mon - Fri: 6:30 PM - 4:30 AM (EST Operating Window)</p>
+          <p style="margin-bottom:10px;"><a href="https://wa.me/971585738055" target="_blank" style="color:#25D366; font-weight:600;"><i class="fa-brands fa-whatsapp"></i> WhatsApp: +971 58 573 8055</a></p>
+          <p style="margin-bottom:6px;"><a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a></p>
+          <p style="margin-bottom:12px;"><a href="mailto:George@principle1pro.com" style="color:#F59E0B; font-weight:600;"><i class="fa-solid fa-envelope"></i> George@principle1pro.com</a></p>
+          <p style="color:#38BDF8; font-weight:600; font-size:0.85rem;"><i class="fa-solid fa-clock"></i> Coverage Across All US Time Zones (EST, CST, MST, PST)</p>
         </div>
       </div>
 

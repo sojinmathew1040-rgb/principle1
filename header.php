@@ -55,12 +55,20 @@ if (empty($currentPage)) {
       "postalCode": "683111",
       "addressCountry": "IN"
     },
-    "founder": {
-      "@type": "Person",
-      "name": "Nikhil George Bose",
-      "jobTitle": "Founder & Managing Director",
-      "sameAs": "https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/"
-    },
+    "founders": [
+      {
+        "@type": "Person",
+        "name": "Nikhil George Bose",
+        "jobTitle": "Founder & Managing Director",
+        "sameAs": "https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/"
+      },
+      {
+        "@type": "Person",
+        "name": "Georgee Jacob",
+        "jobTitle": "Founder & Managing Director",
+        "email": "George@principle1pro.com"
+      }
+    ],
     "areaServed": "US",
     "sameAs": [
       "https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/"
@@ -74,7 +82,7 @@ if (empty($currentPage)) {
   <header class="header-nav" id="headerNav">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" style="display:flex; align-items:center;">
-        <img src="images/logo_dark_header.png" alt="Principle 1 Professional Services" style="height:64px; width:auto; max-width:320px; display:block; object-fit:contain;">
+        <img src="images/logo_dark_header.png" alt="Principle 1 Professional Services" style="height:82px; width:auto; max-width:400px; display:block; object-fit:contain; filter:drop-shadow(0 2px 12px rgba(56,189,248,0.55));">
       </a>
 
       <nav class="nav-menu" id="navMenu">
@@ -85,9 +93,6 @@ if (empty($currentPage)) {
       </nav>
 
       <div class="nav-actions">
-        <a href="https://wa.me/971585738055" target="_blank" class="btn btn-primary btn-sm">
-          <i class="fa-brands fa-whatsapp"></i> Get Started
-        </a>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
           <i class="fa-solid fa-bars"></i>
         </button>

@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'processor-exp': {
       title: 'Processor Exp - US Mortgage Specialists',
       body: `
-        <p style="margin-bottom:16px; color:var(--text-sub);">Our senior US mortgage processors average 8+ years of dedicated experience across Fannie Mae, Freddie Mac, FHA, VA, and USDA guidelines.</p>
+        <p style="margin-bottom:16px; color:var(--text-sub);">Our senior US mortgage processors average 15+ years of dedicated experience across Fannie Mae, Freddie Mac, FHA, VA, and USDA guidelines.</p>
         <h4 style="margin-bottom:10px; color:var(--accent-cyan);">Key Deliverables:</h4>
         <ul style="list-style:disc; padding-left:20px; color:var(--text-sub); display:flex; flex-direction:column; gap:8px;">
           <li>Complete initial 1003 file setup and loan structure verification</li>

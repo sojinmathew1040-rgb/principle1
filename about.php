@@ -33,17 +33,17 @@ include 'header.php';
           Founded with a singular mission, Principle 1 Professional Services bridges the operational gap for US mortgage brokers, lenders, and originators. We recognize that senior loan officers should spend their valuable time building client relationships and locking loans—not bogged down in endless condition clearing and documentation chasing.
         </p>
         <p style="color:var(--text-sub); margin-bottom:24px; line-height:1.7;">
-          Our specialized team consists of seasoned processors with average 8+ years of US mortgage experience. We handle the entire processing machinery—from initial 1003 file setup, DU/LPA execution, and third-party orders (HO6, Master Policy, Title, Appraisal) to closing disclosure balancing and post-closing audit reporting.
+          Our specialized team consists of seasoned processors with average 15+ years of US mortgage experience. We handle the entire processing machinery—from initial 1003 file setup, DU/LPA execution, and third-party orders (HO6, Master Policy, Title, Appraisal) to closing disclosure balancing and post-closing audit reporting.
         </p>
 
         <div class="story-stats-grid">
           <div style="background:var(--bg-surface-1); padding:20px; border-radius:var(--radius-md); border:1px solid var(--border-glass);">
-            <div style="font-size:1.8rem; font-weight:800; color:#0B2545; font-family:var(--font-heading);">100%</div>
+            <div style="font-size:1.8rem; font-weight:800; color:#38BDF8; font-family:var(--font-heading);">100%</div>
             <div style="font-size:0.85rem; color:var(--text-sub); text-transform:uppercase;">Compliant & Audit Ready</div>
           </div>
           <div style="background:var(--bg-surface-1); padding:20px; border-radius:var(--radius-md); border:1px solid var(--border-glass);">
-            <div style="font-size:1.8rem; font-weight:800; color:#0B2545; font-family:var(--font-heading);">2-Touch</div>
-            <div style="font-size:0.85rem; color:var(--text-sub); text-transform:uppercase;">Underwriting Approvals</div>
+            <div style="font-size:1.8rem; font-weight:800; color:#38BDF8; font-family:var(--font-heading);">All US</div>
+            <div style="font-size:0.85rem; color:var(--text-sub); text-transform:uppercase;">Time Zones Covered</div>
           </div>
         </div>
       </div>
@@ -59,34 +59,62 @@ include 'header.php';
     <div class="container">
       <div class="section-header">
         <div class="subtitle-badge subtitle-badge-gold"><i class="fa-solid fa-user-tie"></i> Corporate Leadership</div>
-        <h2>Meet Our <span class="text-gradient-cyan">Managing Director</span></h2>
-        <p>Driving operational excellence, zero-defect processing standards, and US mortgage back-office partnerships.</p>
+        <h2>Meet Our <span class="text-gradient-cyan">Founders & Managing Directors</span></h2>
+        <p>Driving operational excellence, zero-defect processing standards, and US mortgage back-office partnerships across all 50 states.</p>
       </div>
 
-      <div class="glass-card" style="max-width:850px; margin:0 auto; padding:40px; border:1px solid var(--border-glass); box-shadow:var(--shadow-glass);">
-        <div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(360px, 1fr)); gap:30px; max-width:1100px; margin:0 auto;">
+        
+        <!-- Founder 1: Nikhil George Bose -->
+        <div class="glass-card" style="padding:36px; border:1px solid var(--border-glass); box-shadow:var(--shadow-glass);">
           <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:8px;">
-            <h3 style="font-size:1.8rem; color:var(--text-main); margin:0;">Nikhil George Bose</h3>
-            <a href="https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/" target="_blank" class="btn btn-sm btn-primary" style="padding:8px 18px; font-size:0.85rem;">
-              <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
+            <h3 style="font-size:1.6rem; color:var(--text-main); margin:0;">Nikhil George Bose</h3>
+            <a href="https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/" target="_blank" class="btn btn-sm btn-primary" style="padding:6px 14px; font-size:0.8rem;">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
           </div>
-          <div style="font-size:0.95rem; font-weight:700; color:#38BDF8; text-transform:uppercase; letter-spacing:1px; margin-bottom:14px;">
-            Managing Director — Principle 1 Professional Services
+          <div style="font-size:0.88rem; font-weight:700; color:#38BDF8; text-transform:uppercase; letter-spacing:1px; margin-bottom:14px;">
+            Founder & Managing Director
           </div>
-          <p style="color:var(--text-sub); line-height:1.7; font-size:0.98rem; margin-bottom:14px;">
-            Nikhil George Bose leads Principle 1 Professional Services with a commitment to delivering high-volume, 100% compliant US mortgage back-office operations. Under his leadership, Principle 1 provides turnkey mortgage processing, AUS DU/LPA underwriter support, closing disclosure balancing, and quality control auditing for wholesale lenders and mortgage brokers across all 50 US states.
+          <p style="color:var(--text-sub); line-height:1.7; font-size:0.92rem; margin-bottom:16px;">
+            Nikhil George Bose co-leads Principle 1 Professional Services with a commitment to delivering high-volume, 100% compliant US mortgage back-office operations. He specializes in AUS DU/LPA underwriter support, closing disclosure balancing, and quality control auditing.
           </p>
-          <div style="display:flex; gap:20px; font-size:0.9rem; font-weight:600; color:var(--text-main); flex-wrap:wrap; margin-bottom:12px;">
+          <div style="display:flex; flex-direction:column; gap:8px; font-size:0.88rem; font-weight:600; color:var(--text-main); margin-bottom:16px;">
             <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> Cross-Border Operations Leader</span>
             <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> US Mortgage Back-Office Architect</span>
           </div>
           <div>
-            <a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600; font-size:0.92rem;">
+            <a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600; font-size:0.9rem;">
               <i class="fa-solid fa-envelope"></i> nick@principle1pro.com
             </a>
           </div>
         </div>
+
+        <!-- Founder 2: Georgee Jacob -->
+        <div class="glass-card" style="padding:36px; border:1px solid var(--border-glass); box-shadow:var(--shadow-glass);">
+          <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:8px;">
+            <h3 style="font-size:1.6rem; color:var(--text-main); margin:0;">Georgee Jacob</h3>
+            <a href="mailto:George@principle1pro.com" class="btn btn-sm btn-gold" style="padding:6px 14px; font-size:0.8rem;">
+              <i class="fa-solid fa-envelope"></i> Contact Direct
+            </a>
+          </div>
+          <div style="font-size:0.88rem; font-weight:700; color:#F59E0B; text-transform:uppercase; letter-spacing:1px; margin-bottom:14px;">
+            Founder & Managing Director
+          </div>
+          <p style="color:var(--text-sub); line-height:1.7; font-size:0.92rem; margin-bottom:16px;">
+            Georgee Jacob co-leads Principle 1 Professional Services, overseeing strategic broker partnerships, operational scaling, and nationwide back-office efficiency across all US time zones.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:8px; font-size:0.88rem; font-weight:600; color:var(--text-main); margin-bottom:16px;">
+            <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> Strategic Partner Relations</span>
+            <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> All US Time Zone Operations</span>
+          </div>
+          <div>
+            <a href="mailto:George@principle1pro.com" style="color:#F59E0B; font-weight:600; font-size:0.9rem;">
+              <i class="fa-solid fa-envelope"></i> George@principle1pro.com
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -109,14 +137,14 @@ include 'header.php';
 
         <div class="glass-card">
           <div class="service-icon-box"><i class="fa-solid fa-user-shield"></i></div>
-          <h4 style="font-size:1.2rem; margin-bottom:10px;">Senior Processor Exp</h4>
+          <h4 style="font-size:1.2rem; margin-bottom:10px;">15+ Yrs Processor Exp</h4>
           <p style="font-size:0.9rem; color:var(--text-sub);">Dedicated senior processing leads who understand complex tax returns (Schedule C/E, K1), DU/LPA rules, and lender nuances.</p>
         </div>
 
         <div class="glass-card">
           <div class="service-icon-box"><i class="fa-solid fa-clock-rotate-left"></i></div>
-          <h4 style="font-size:1.2rem; margin-bottom:10px;">24/7 Back-Office</h4>
-          <p style="font-size:0.9rem; color:var(--text-sub);">Our US operating window enables file setup and condition clearing overnight, ensuring next-morning status updates.</p>
+          <h4 style="font-size:1.2rem; margin-bottom:10px;">All US Time Zones</h4>
+          <p style="font-size:0.9rem; color:var(--text-sub);">Full operational coverage across EST, CST, MST, & PST windows ensuring file setup and condition clearing without delay.</p>
         </div>
 
         <div class="glass-card">
@@ -151,6 +179,14 @@ include 'header.php';
           <div class="product-info">
             <h5>Calyx Point / PointCentral</h5>
             <p>File Setup & Disclosure Integration</p>
+          </div>
+        </div>
+
+        <div class="product-pill-card">
+          <div class="product-icon"><i class="fa-solid fa-cloud"></i></div>
+          <div class="product-info">
+            <h5>LendingPad LOS</h5>
+            <p>Cloud Loan Origination & Submissions</p>
           </div>
         </div>
 
