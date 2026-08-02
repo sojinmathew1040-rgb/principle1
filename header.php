@@ -82,7 +82,7 @@ if (empty($currentPage)) {
   <header class="header-nav" id="headerNav">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo" style="display:flex; align-items:center;">
-        <img src="images/logo_dark_header.png" alt="Principle 1 Professional Services" style="height:96px; width:auto; max-width:480px; display:block; object-fit:contain; filter:drop-shadow(0 2px 12px rgba(56,189,248,0.55));">
+        <img src="images/logo_transparent.png" alt="Principle 1 Professional Services" style="height:96px; width:auto; max-width:480px; display:block; object-fit:contain; filter:brightness(0) invert(1) drop-shadow(0 2px 10px rgba(56,189,248,0.45));">
       </a>
 
       <nav class="nav-menu" id="navMenu">

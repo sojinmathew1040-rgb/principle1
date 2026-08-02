@@ -4,7 +4,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <a href="index.php" class="brand-logo" style="margin-bottom:16px; display:inline-block;">
-            <img src="images/logo.png" alt="Principle 1 Professional Services" style="height:90px; width:auto; max-width:380px; display:block; object-fit:contain;">
+            <img src="images/logo_transparent.png" alt="Principle 1 Professional Services" style="height:90px; width:auto; max-width:380px; display:block; object-fit:contain; filter:brightness(0) invert(1);">
           </a>
           <p style="margin-bottom:20px; line-height:1.7;">
             Principle1 is a premier US mortgage processing and back-office solutions provider. We deliver end-to-end loan setup, AUS execution, underwriting support, closing/funding coordination, and quality control audits for brokers and lenders nationwide.
