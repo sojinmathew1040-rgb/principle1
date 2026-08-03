@@ -18,6 +18,9 @@ function renderHeaderClean($title, $desc, $pageName, $headerRaw) {
     $h = str_replace('href="about.php"', 'href="about.html"', $h);
     $h = str_replace('href="services.php"', 'href="services.html"', $h);
     $h = str_replace('href="contact.php"', 'href="contact.html"', $h);
+
+    // LOCK LOGO LINK TO INDEX.HTML ALWAYS
+    $h = preg_replace('/<a\s+href="[^"]*"\s+class="brand-logo"/', '<a href="index.html" class="brand-logo"', $h);
     return trim($h);
 }
 
@@ -27,6 +30,9 @@ function renderFooterClean($footerRaw) {
     $f = str_replace('href="about.php"', 'href="about.html"', $f);
     $f = str_replace('href="services.php"', 'href="services.html"', $f);
     $f = str_replace('href="contact.php"', 'href="contact.html"', $f);
+
+    // LOCK LOGO LINK TO INDEX.HTML ALWAYS
+    $f = preg_replace('/<a\s+href="[^"]*"\s+class="brand-logo"/', '<a href="index.html" class="brand-logo"', $f);
     return trim($f);
 }
 
@@ -67,5 +73,5 @@ foreach ($pages as $phpFile => $meta) {
     echo "SUCCESS: Exported $phpFile -> $htmlFile\n";
 }
 
-echo "All static HTML export files rebuilt with updated copyright company name!";
+echo "All logo links locked to index.html/index.php successfully!";
 ?>

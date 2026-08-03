@@ -20,10 +20,14 @@ def render_header(title, desc, page_name):
     h = h.replace('class="nav-link <?php echo ($currentPage == \'services.php\') ? \'active\' : \'\'; ?>"', f'class="nav-link {"active" if page_name == "services.html" else ""}"')
     h = h.replace('class="nav-link <?php echo ($currentPage == \'contact.php\') ? \'active\' : \'\'; ?>"', f'class="nav-link {"active" if page_name == "contact.html" else ""}"')
     
+    # Update navigation links from .php to .html
     h = h.replace('href="index.php"', 'href="index.html"')
     h = h.replace('href="about.php"', 'href="about.html"')
     h = h.replace('href="services.php"', 'href="services.html"')
     h = h.replace('href="contact.php"', 'href="contact.html"')
+
+    # LOCK LOGO LINK TO INDEX.HTML ALWAYS
+    h = re.sub(r'<a\s+href="[^"]*"\s+class="brand-logo"', '<a href="index.html" class="brand-logo"', h)
     return h.strip()
 
 def render_footer():
@@ -32,6 +36,9 @@ def render_footer():
     f = f.replace('href="about.php"', 'href="about.html"')
     f = f.replace('href="services.php"', 'href="services.html"')
     f = f.replace('href="contact.php"', 'href="contact.html"')
+
+    # LOCK LOGO LINK TO INDEX.HTML ALWAYS
+    f = re.sub(r'<a\s+href="[^"]*"\s+class="brand-logo"', '<a href="index.html" class="brand-logo"', f)
     return f.strip()
 
 pages = {

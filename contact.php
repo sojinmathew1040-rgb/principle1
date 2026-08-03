@@ -125,8 +125,8 @@ include 'header.php';
             <textarea id="message" class="form-control" placeholder="Mention your loan types (FHA, VA, Conv), monthly volume, or processing requirements..." required style="min-height:100px;"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary" style="width:100%; padding:16px; font-size:1.05rem; background:linear-gradient(135deg, #25D366 0%, #128C7E 100%); border:none; box-shadow:0 6px 20px rgba(37, 211, 102, 0.35);">
-            <i class="fa-brands fa-whatsapp" style="font-size:1.3rem;"></i> Send Inquiry to WhatsApp (+971 58 573 8055)
+          <button type="submit" class="btn btn-whatsapp-submit">
+            <i class="fa-brands fa-whatsapp" style="font-size:1.3rem; flex-shrink:0;"></i> <span>Send Inquiry via WhatsApp</span>
           </button>
         </form>
       </div>
