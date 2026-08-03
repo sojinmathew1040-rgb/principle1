@@ -53,7 +53,8 @@ foreach ($pages as $phpFile => $meta) {
 
     $fullHtml = renderHeaderClean($title, $desc, $htmlFile, $headerRaw) . "\n" . $content . "\n" . renderFooterClean($footerRaw);
     file_put_contents($baseDir . '/' . $htmlFile, $fullHtml);
+    echo "Successfully generated: " . $htmlFile . "\n";
 }
 
-echo "Static HTML files updated cleanly with white button font overrides!\n";
+echo "Vercel static build complete!";
 ?>
