@@ -109,18 +109,31 @@ body {
   position: relative;
 }
 
-/* Universal Pure White Font Rule (Except WhatsApp) */
-p, span, h1, h2, h3, h4, h5, h6, a:not([href*="wa.me"]):not(.floating-whatsapp):not(.fa-whatsapp), li, label, th, td, div {
+/* Universal Pure White Font Rule */
+p, span, h1, h2, h3, h4, h5, h6, a, li, label, th, td, div {
   color: #FFFFFF;
 }
 
-/* WhatsApp Explicit Green Color Preservation */
-a[href*="wa.me"], 
+/* Floating WhatsApp Widget Green Accent */
 .floating-whatsapp, 
 .floating-whatsapp span,
 .floating-whatsapp i,
-.fa-whatsapp {
+i.fa-whatsapp {
   color: #25D366 !important;
+}
+
+/* Explicit Button Pure White Text Override */
+a.btn,
+a.btn-gold,
+a.btn-primary,
+a.btn-sm,
+a.btn-large,
+a.btn *,
+a.btn-gold *,
+a.btn-primary *,
+a.btn-sm *,
+a.btn-large * {
+  color: #FFFFFF !important;
 }
 body::before {
   content: '';
@@ -437,24 +450,32 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary {
   background: linear-gradient(135deg, #E5C158 0%, #C5A059 50%, #9A7B2C 100%);
-  color: #0A111C;
+  color: #FFFFFF !important;
   font-weight: 700;
   box-shadow: 0 4px 20px rgba(212, 175, 55, 0.35);
+}
+
+.btn-primary *, .btn-primary i, .btn-primary span {
+  color: #FFFFFF !important;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(212, 175, 55, 0.55);
-  color: #0A111C;
+  color: #FFFFFF !important;
 }
 
 .btn-gold {
   background: linear-gradient(135deg, #F0D278 0%, #D4AF37 50%, #9A7B2C 100%);
-  color: #0A111C;
+  color: #FFFFFF !important;
   font-weight: 700;
   box-shadow: 0 10px 25px rgba(212, 175, 55, 0.35);
   position: relative;
   overflow: hidden;
+}
+
+.btn-gold *, .btn-gold i, .btn-gold span {
+  color: #FFFFFF !important;
 }
 
 .btn-gold::after {
@@ -483,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-gold:hover {
   transform: translateY(-3px);
   box-shadow: 0 15px 35px rgba(212, 175, 55, 0.5);
-  color: #000000;
+  color: #FFFFFF !important;
 }
 
 .btn-outline {
@@ -937,9 +958,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .tab-btn.active, .tab-btn:hover {
   background: linear-gradient(135deg, #E5C158 0%, #C5A059 50%, #9A7B2C 100%);
-  color: #0A111C;
+  color: #FFFFFF !important;
   border-color: transparent;
   box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+}
+
+.tab-btn.active i, .tab-btn:hover i {
+  color: #FFFFFF !important;
 }
 
 .tab-content-panel {
@@ -2345,6 +2370,27 @@ footer {
   text-align: center;
   color: var(--accent-gold-light);
   font-weight: 700;
+}
+
+/* Universal White Font Override for All Buttons across all pages */
+.btn,
+.btn-primary,
+.btn-gold,
+.btn-sm,
+.btn-large,
+.btn-outline:hover,
+.tab-btn.active {
+  color: #FFFFFF !important;
+}
+
+.btn *,
+.btn-primary *,
+.btn-gold *,
+.btn-sm *,
+.btn-large *,
+.btn-outline:hover *,
+.tab-btn.active * {
+  color: #FFFFFF !important;
 }
 
 

@@ -1,5 +1,4 @@
 <?php
-@include_once __DIR__ . '/copy_photos.php';
 $currentPage = basename($_SERVER['PHP_SELF']);
 if (empty($currentPage)) {
     $currentPage = 'index.php';

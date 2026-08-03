@@ -1,0 +1,89 @@
+<?php
+$baseDir = __DIR__;
+
+$unwantedFiles = [
+    "build_clean_logo_png.php",
+    "clean_logo2_exact.py",
+    "convert_logo.py",
+    "convert_logo2.py",
+    "copy_new_logo.php",
+    "copy_photos.php",
+    "generate_final_clean_logos.py",
+    "optimize_images.php",
+    "process_checkerboard.py",
+    "process_logo_gd.php",
+    "run_checkerboard.php",
+    "run_convert.php",
+    "run_logo.php",
+    "strip_bg_exact.php",
+    "strip_exact.py",
+    "sync_logo_files.php",
+    "cleanup_scratch_files.py"
+];
+
+foreach ($unwantedFiles as $file) {
+    $path = $baseDir . '/' . $file;
+    if (file_exists($path)) {
+        @unlink($path);
+        echo "Removed: $file\n";
+    }
+}
+
+// Regenerate Vercel export HTML files
+$headerRaw = file_get_contents($baseDir . '/header.php');
+$footerRaw = file_get_contents($baseDir . '/footer.php');
+
+function renderHeaderClean($title, $desc, $pageName, $headerRaw) {
+    $h = preg_replace('/<\?php[\s\S]*?\?>/', '', $headerRaw);
+    $h = str_replace("<?php echo isset(\$pageTitle) ? \$pageTitle : 'Principle 1 Professional Services | US Mortgage Processing & Back-Office Outsourcing'; ?>", $title, $h);
+    $h = str_replace("<?php echo isset(\$pageDesc) ? \$pageDesc : 'Premier US mortgage processing outsourcing, AUS DU/LPA underwriting support, closing & funding coordination, and NMLS compliant audit services for US mortgage brokers and wholesale lenders.'; ?>", $desc, $h);
+    $h = str_replace("<?php echo \$currentPage; ?>", $pageName, $h);
+
+    $h = preg_replace('/class="nav-link <\?php echo \(\$currentPage == \'index\.php\' \|\| \$currentPage == \'index\.html\'\) \? \'active\' : \'\'; \?>"/','class="nav-link ' . ($pageName == 'index.html' ? 'active' : '') . '"', $h);
+    $h = preg_replace('/class="nav-link <\?php echo \(\$currentPage == \'about\.php\'\) \? \'active\' : \'\'; \?>"/','class="nav-link ' . ($pageName == 'about.html' ? 'active' : '') . '"', $h);
+    $h = preg_replace('/class="nav-link <\?php echo \(\$currentPage == \'services\.php\'\) \? \'active\' : \'\'; \?>"/','class="nav-link ' . ($pageName == 'services.html' ? 'active' : '') . '"', $h);
+    $h = preg_replace('/class="nav-link <\?php echo \(\$currentPage == \'contact\.php\'\) \? \'active\' : \'\'; \?>"/','class="nav-link ' . ($pageName == 'contact.html' ? 'active' : '') . '"', $h);
+
+    $h = str_replace('href="index.php"', 'href="index.html"', $h);
+    $h = str_replace('href="about.php"', 'href="about.html"', $h);
+    $h = str_replace('href="services.php"', 'href="services.html"', $h);
+    $h = str_replace('href="contact.php"', 'href="contact.html"', $h);
+    return $h;
+}
+
+function renderFooterClean($footerRaw) {
+    $f = preg_replace('/<\?php echo date\(\'Y\'\); \?>/', '2026', $footerRaw);
+    $f = str_replace('href="index.php"', 'href="index.html"', $f);
+    $f = str_replace('href="about.php"', 'href="about.html"', $f);
+    $f = str_replace('href="services.php"', 'href="services.html"', $f);
+    $f = str_replace('href="contact.php"', 'href="contact.html"', $f);
+    return $f;
+}
+
+$pages = [
+    "index.php" => ["index.html", "Principle 1 Professional Services | US Mortgage Processing & Back-Office Outsourcing", "Premier US mortgage processing outsourcing, AUS DU/LPA underwriting support, closing & funding coordination for wholesale lenders and mortgage brokers."],
+    "about.php" => ["about.html", "About Us | Principle 1 Professional Services - US Mortgage Processing", "Learn about Principle 1 Professional Services, founded by Nikhil George Bose. We deliver high-volume, 100% compliant US mortgage back-office processing."],
+    "services.php" => ["services.html", "Our Services | Principle 1 Professional Services - US Mortgage Processing", "Explore our end-to-end US mortgage processing services, AUS DU/LPA execution, closing & funding support, and quality control auditing."],
+    "contact.php" => ["contact.html", "Contact Us | Principle 1 Professional Services - US Mortgage Back-Office", "Get in touch with Principle 1 Professional Services. Connect directly with our Senior Processing Lead on WhatsApp or email nick@principle1pro.com."]
+];
+
+foreach ($pages as $phpFile => $meta) {
+    $htmlFile = $meta[0];
+    $title = $meta[1];
+    $desc = $meta[2];
+
+    $content = file_get_contents($baseDir . '/' . $phpFile);
+    $content = preg_replace('/<\?php[\s\S]*?include \'header\.php\';[\s\S]*?\?>/', '', $content);
+    $content = preg_replace('/<\?php[\s\S]*?include \'footer\.php\';[\s\S]*?\?>/', '', $content);
+
+    $content = str_replace('href="index.php"', 'href="index.html"', $content);
+    $content = str_replace('href="about.php"', 'href="about.html"', $content);
+    $content = str_replace('href="services.php"', 'href="services.html"', $content);
+    $content = str_replace('href="contact.php"', 'href="contact.html"', $content);
+
+    $fullHtml = renderHeaderClean($title, $desc, $htmlFile, $headerRaw) . "\n" . $content . "\n" . renderFooterClean($footerRaw);
+    file_put_contents($baseDir . '/' . $htmlFile, $fullHtml);
+}
+
+echo "Cleaned up unwanted files & rebuilt static export files successfully!\n";
+?>
