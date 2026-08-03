@@ -51,7 +51,7 @@
       </div>
 
       <div class="footer-bottom">
-        <div>&copy; <?php echo date('Y'); ?> Principle1 Processing Solutions. All Rights Reserved. Equal Housing Opportunity. | Site designed &amp; developed by <a href="https://perumalilcreative.com/" target="_blank" rel="noopener" style="color:#FFFFFF; font-weight:700; text-decoration:underline;">Perumalil Creative</a></div>
+        <div>&copy; <?php echo date('Y'); ?> Principle 1 Professional Services. All Rights Reserved. Equal Housing Opportunity. | Site designed &amp; developed by <a href="https://perumalilcreative.com/" target="_blank" rel="noopener" style="color:#FFFFFF; font-weight:700; text-decoration:underline;">Perumalil Creative</a></div>
         <div style="display:flex; gap:20px;">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>

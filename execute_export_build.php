@@ -67,5 +67,5 @@ foreach ($pages as $phpFile => $meta) {
     echo "SUCCESS: Exported $phpFile -> $htmlFile\n";
 }
 
-echo "All static HTML export files rebuilt successfully!";
+echo "All static HTML export files rebuilt with updated copyright company name!";
 ?>
