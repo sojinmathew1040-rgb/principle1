@@ -30,7 +30,7 @@ if (empty($currentPage)) {
   <meta name="twitter:image" content="images/banner.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
 
   <!-- FontAwesome 6 Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -87,7 +87,7 @@ if (empty($currentPage)) {
   <header class="header-nav" id="headerNav">
     <div class="container nav-container">
       <a href="index.php" class="brand-logo">
-        <img src="images/logo_transparent.png" alt="Principle 1 Professional Services" class="brand-logo-img">
+        <img src="images/logo.svg" alt="Principle 1 Professional Services" class="brand-logo-img">
       </a>
 
       <nav class="nav-menu" id="navMenu">

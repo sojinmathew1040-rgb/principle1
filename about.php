@@ -68,7 +68,7 @@ include 'header.php';
         <!-- Founder 1: Nikhil George Bose -->
         <div class="glass-card founder-card">
           <a href="https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/" target="_blank" class="founder-photo-link cyan" title="View Nikhil George Bose on LinkedIn">
-            <img src="images/nikhil_bose.jpg" alt="Nikhil George Bose - Founder & Managing Director" class="founder-photo-img">
+            <img src="images/nikhil.png" alt="Nikhil George Bose - Founder & Managing Director" class="founder-photo-img">
           </a>
           <div class="founder-info">
             <div class="founder-header-row">
@@ -90,7 +90,7 @@ include 'header.php';
               <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> US Mortgage Back-Office Architect</span>
             </div>
             <div style="padding-top:2px;">
-              <a href="mailto:nick@principle1pro.com" style="color:#D4AF37; font-weight:600; font-size:0.92rem;">
+              <a href="mailto:nick@principle1pro.com" style="color:#FFFFFF; font-weight:600; font-size:0.92rem;">
                 <i class="fa-solid fa-envelope"></i> nick@principle1pro.com
               </a>
             </div>
@@ -122,7 +122,7 @@ include 'header.php';
               <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> All US Time Zone Operations</span>
             </div>
             <div style="padding-top:2px;">
-              <a href="mailto:George@principle1pro.com" style="color:#F59E0B; font-weight:600; font-size:0.92rem;">
+              <a href="mailto:George@principle1pro.com" style="color:#FFFFFF; font-weight:600; font-size:0.92rem;">
                 <i class="fa-solid fa-envelope"></i> George@principle1pro.com
               </a>
             </div>
@@ -166,121 +166,6 @@ include 'header.php';
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Technology Stack & Software Integration -->
-  <section style="padding:100px 0; background:var(--bg-main);">
-    <div class="container">
-      <div class="section-header">
-        <div class="subtitle-badge subtitle-badge-gold">Seamless Compatibility</div>
-        <h2>Integrated With Leading <span class="text-gradient-gold">US Mortgage Tech</span></h2>
-        <p>Our team works directly within your existing Loan Origination Software (LOS) and automated underwriting portals.</p>
-      </div>
-
-      <div class="products-grid">
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-laptop-code"></i></div>
-          <div class="product-info">
-            <h5>ICE Encompass</h5>
-            <p>Full Admin & Pipeline Management</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-diagram-project"></i></div>
-          <div class="product-info">
-            <h5>Calyx Point / PointCentral</h5>
-            <p>File Setup & Disclosure Integration</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-cloud"></i></div>
-          <div class="product-info">
-            <h5>LendingPad LOS</h5>
-            <p>Cloud Loan Origination & Submissions</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-network-wired"></i></div>
-          <div class="product-info">
-            <h5>ARIVE LOS</h5>
-            <p>Wholesale Broker Portal Coordination</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-file-code"></i></div>
-          <div class="product-info">
-            <h5>BytePro</h5>
-            <p>Automated Rule Checking & Audits</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-desktop"></i></div>
-          <div class="product-info">
-            <h5>Fannie Mae DU</h5>
-            <p>Desktop Underwriter Execution</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-microchip"></i></div>
-          <div class="product-info">
-            <h5>Freddie Mac LPA</h5>
-            <p>Loan Product Advisor Reconciliations</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-building-circle-check"></i></div>
-          <div class="product-info">
-            <h5>USDA GUS</h5>
-            <p>Guaranteed Underwriting System</p>
-          </div>
-        </div>
-
-        <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-vault"></i></div>
-          <div class="product-info">
-            <h5>VA WebLGY</h5>
-            <p>Certificate of Eligibility & Case Orders</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!-- Compliance & Data Security Section -->
-  <section style="padding:100px 0; background:var(--bg-main); border-top:1px solid var(--border-glass);">
-    <div class="container">
-      <div class="section-header">
-        <div class="subtitle-badge subtitle-badge-gold"><i class="fa-solid fa-shield-halved"></i> Data Privacy & Compliance Awareness</div>
-        <h2>Bank-Grade <span class="text-gradient-cyan">Security & Compliance Safeguards</span></h2>
-        <p>Protecting Non-Public Personal Information (NPI) and maintaining zero-defect regulatory awareness across every loan file.</p>
-      </div>
-
-      <div class="services-grid">
-        <div class="glass-card">
-          <div class="service-icon-box"><i class="fa-solid fa-lock"></i></div>
-          <h4 style="font-size:1.2rem; margin-bottom:10px; color:var(--text-main);">Data Privacy & NPI Protection</h4>
-          <p style="font-size:0.9rem; color:var(--text-sub);">All borrower data is processed within your secure Loan Origination System (LOS) over 256-bit SSL encrypted channels under strict GLBA and SOC-2 data privacy practices.</p>
-        </div>
-
-        <div class="glass-card">
-          <div class="service-icon-box"><i class="fa-solid fa-file-shield"></i></div>
-          <h4 style="font-size:1.2rem; margin-bottom:10px; color:var(--text-main);">Regulatory Compliance Awareness</h4>
-          <p style="font-size:0.9rem; color:var(--text-sub);">Strict operational alignment with US mortgage regulations including RESPA, TILA, FCRA, TRID 3-Day disclosure rules, and NMLS quality control standards.</p>
-        </div>
-
-        <div class="glass-card">
-          <div class="service-icon-box"><i class="fa-solid fa-user-secret"></i></div>
-          <h4 style="font-size:1.2rem; margin-bottom:10px; color:var(--text-main);">Confidentiality Commitment</h4>
-          <p style="font-size:0.9rem; color:var(--text-sub);">Zero local document retention on local workstations. We execute comprehensive non-disclosure agreements (NDAs) with every broker partner for 100% confidentiality.</p>
-        </div>
-      </div>
-
-   
   </section>
 
   <!-- CTA Banner -->

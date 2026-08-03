@@ -53,19 +53,13 @@ include 'header.php';
             <div class="detail-text">
               <h5>Executive Leadership Contact</h5>
               <div style="display:flex; flex-direction:column; gap:12px; margin-top:8px;">
-                <div style="display:flex; align-items:center; gap:12px;">
-                  <img src="images/nikhil_bose.jpg" alt="Nikhil George Bose" style="width:46px; height:46px; border-radius:50%; object-fit:cover; object-position:center 20%; border:2px solid #D4AF37; box-shadow:0 4px 12px rgba(212,175,55,0.3);">
-                  <div>
-                    <div style="font-weight:700; color:var(--text-main); font-size:0.95rem;">Nikhil George Bose</div>
-                    <a href="mailto:nick@principle1pro.com" style="color:var(--accent-cyan); font-weight:600; font-size:0.88rem;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a>
-                  </div>
+                <div>
+                  <div style="font-weight:700; color:#FFFFFF; font-size:0.95rem;">Nikhil George Bose</div>
+                  <a href="mailto:nick@principle1pro.com" style="color:#FFFFFF; font-weight:600; font-size:0.88rem;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a>
                 </div>
-                <div style="display:flex; align-items:center; gap:12px;">
-                  <img src="images/george_jacob.jpg" alt="Georgee Jacob" style="width:46px; height:46px; border-radius:50%; object-fit:cover; object-position:center 20%; border:2px solid #F59E0B; box-shadow:0 4px 12px rgba(245,158,11,0.3);">
-                  <div>
-                    <div style="font-weight:700; color:var(--text-main); font-size:0.95rem;">Georgee Jacob</div>
-                    <a href="mailto:George@principle1pro.com" style="color:var(--accent-gold-light); font-weight:600; font-size:0.88rem;"><i class="fa-solid fa-envelope"></i> George@principle1pro.com</a>
-                  </div>
+                <div>
+                  <div style="font-weight:700; color:#FFFFFF; font-size:0.95rem;">Georgee Jacob</div>
+                  <a href="mailto:George@principle1pro.com" style="color:#FFFFFF; font-weight:600; font-size:0.88rem;"><i class="fa-solid fa-envelope"></i> George@principle1pro.com</a>
                 </div>
               </div>
             </div>

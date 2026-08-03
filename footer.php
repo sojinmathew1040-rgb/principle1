@@ -4,7 +4,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <a href="index.php" class="brand-logo">
-            <img src="images/logo_transparent.png" alt="Principle 1 Professional Services" class="brand-logo-img-sm">
+            <img src="images/logo.svg" alt="Principle 1 Professional Services" class="brand-logo-img-sm">
           </a>
           <p style="margin-bottom:20px; line-height:1.7;">
             Principle1 is a premier US mortgage processing and back-office solutions provider. We deliver end-to-end loan setup, AUS execution, underwriting support, closing/funding coordination, and quality control audits for brokers and lenders nationwide.
@@ -41,17 +41,17 @@
 
         <div class="footer-col">
           <h4>Contact & Hours</h4>
-          <p style="margin-bottom:12px; line-height:1.5; color:#CBD5E1;"><i class="fa-solid fa-location-dot" style="color:#D4AF37;"></i> <strong style="color:#FFFFFF;">Skyline Builders</strong>, Cochin Airport Rd, Nedumbassery, Ernakulam, Kerala – 683111, India</p>
-          <p style="margin-bottom:8px;"><a href="tel:+19728486868" style="color:#94A3B8;"><i class="fa-solid fa-phone" style="color:#D4AF37;"></i> US Call: <strong style="color:#FFFFFF;">+1 (972) 848-6868</strong></a></p>
+          <p style="margin-bottom:12px; line-height:1.5; color:#FFFFFF;"><i class="fa-solid fa-location-dot" style="color:#FFFFFF;"></i> <strong style="color:#FFFFFF;">Skyline Builders</strong>, Cochin Airport Rd, Nedumbassery, Ernakulam, Kerala – 683111, India</p>
+          <p style="margin-bottom:8px;"><a href="tel:+19728486868" style="color:#FFFFFF;"><i class="fa-solid fa-phone" style="color:#FFFFFF;"></i> US Call: <strong style="color:#FFFFFF;">+1 (972) 848-6868</strong></a></p>
           <p style="margin-bottom:10px;"><a href="https://wa.me/971585738055" target="_blank" style="color:#25D366; font-weight:600;"><i class="fa-brands fa-whatsapp"></i> WhatsApp: +971 58 573 8055</a></p>
-          <p style="margin-bottom:6px;"><a href="mailto:nick@principle1pro.com" style="color:#D4AF37; font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a></p>
-          <p style="margin-bottom:12px;"><a href="mailto:George@principle1pro.com" style="color:#F0D278; font-weight:600;"><i class="fa-solid fa-envelope"></i> George@principle1pro.com</a></p>
-          <p style="color:#D4AF37; font-weight:600; font-size:0.85rem;"><i class="fa-solid fa-clock"></i> Coverage Across All US Time Zones (EST, CST, MST, PST)</p>
+          <p style="margin-bottom:6px;"><a href="mailto:nick@principle1pro.com" style="color:#FFFFFF; font-weight:600;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a></p>
+          <p style="margin-bottom:12px;"><a href="mailto:George@principle1pro.com" style="color:#FFFFFF; font-weight:600;"><i class="fa-solid fa-envelope"></i> George@principle1pro.com</a></p>
+          <p style="color:#FFFFFF; font-weight:600; font-size:0.85rem;"><i class="fa-solid fa-clock"></i> Coverage Across All US Time Zones (EST, CST, MST, PST)</p>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <div>&copy; <?php echo date('Y'); ?> Principle1 Processing Solutions. All Rights Reserved. Equal Housing Opportunity. | Site designed &amp; developed by <a href="https://perumalilcreative.com/" target="_blank" rel="noopener" style="color:var(--accent-gold); font-weight:700; text-decoration:underline;">Perumalil Creative</a></div>
+        <div>&copy; <?php echo date('Y'); ?> Principle1 Processing Solutions. All Rights Reserved. Equal Housing Opportunity. | Site designed &amp; developed by <a href="https://perumalilcreative.com/" target="_blank" rel="noopener" style="color:#FFFFFF; font-weight:700; text-decoration:underline;">Perumalil Creative</a></div>
         <div style="display:flex; gap:20px;">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>

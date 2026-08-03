@@ -231,10 +231,10 @@ include 'header.php';
         </div>
 
         <div class="product-pill-card">
-          <div class="product-icon"><i class="fa-solid fa-cloud"></i></div>
+          <div class="product-icon"><i class="fa-solid fa-gem"></i></div>
           <div class="product-info">
-            <h5>LendingPad LOS</h5>
-            <p>Cloud Loan Origination & Submissions</p>
+            <h5>Jumbo & Non-QM</h5>
+            <p>Bank Statement & High-Balance Products</p>
           </div>
         </div>
       </div>
