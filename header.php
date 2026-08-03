@@ -1,4 +1,5 @@
 <?php
+@include_once __DIR__ . '/copy_photos.php';
 $currentPage = basename($_SERVER['PHP_SELF']);
 if (empty($currentPage)) {
     $currentPage = 'index.php';
@@ -78,11 +79,15 @@ if (empty($currentPage)) {
 </head>
 <body>
 
+  <!-- Ambient Light Orbs -->
+  <div class="ambient-light-orb-1"></div>
+  <div class="ambient-light-orb-2"></div>
+
   <!-- Header / Navigation -->
   <header class="header-nav" id="headerNav">
     <div class="container nav-container">
-      <a href="index.php" class="brand-logo" style="display:flex; align-items:center;">
-        <img src="images/logo_transparent.png" alt="Principle 1 Professional Services" style="height:96px; width:auto; max-width:480px; display:block; object-fit:contain; filter:brightness(0) invert(1) drop-shadow(0 2px 10px rgba(56,189,248,0.45));">
+      <a href="index.php" class="brand-logo">
+        <img src="images/logo_transparent.png" alt="Principle 1 Professional Services" class="brand-logo-img">
       </a>
 
       <nav class="nav-menu" id="navMenu">

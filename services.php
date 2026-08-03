@@ -5,7 +5,7 @@ include 'header.php';
 ?>
 
   <!-- Page Header Hero -->
-  <section style="padding:80px 0 60px 0; background:var(--bg-surface-1); border-bottom:1px solid var(--border-glass); text-align:center;">
+  <section class="page-hero-skyline">
     <div class="container">
       <div class="subtitle-badge subtitle-badge-gold">
         <i class="fa-solid fa-list-check"></i> Turnaround & Efficiency
@@ -250,40 +250,40 @@ include 'header.php';
         <p>See why switching to Principle1 back-office processing delivers superior margins and zero operational friction.</p>
       </div>
 
-      <div style="overflow-x:auto;">
-        <table style="width:100%; border-collapse:collapse; background:var(--bg-surface-2); border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--border-glass);">
+      <div class="comparison-table-wrapper">
+        <table class="comparison-table">
           <thead>
-            <tr style="background:rgba(6, 10, 20, 0.8); border-bottom:1px solid var(--border-glass);">
-              <th style="padding:20px; text-align:left; font-family:var(--font-heading); font-size:1.05rem;">Operational Feature</th>
-              <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--text-muted);">Traditional In-House / Third-Party Processor</th>
-              <th style="padding:20px; text-align:center; font-family:var(--font-heading); font-size:1.05rem; color:var(--accent-cyan);">Principle1 Back-Office Partnership</th>
+            <tr class="table-head-row">
+              <th class="col-feature">Operational Feature</th>
+              <th class="col-traditional">Traditional In-House / Third-Party Processor</th>
+              <th class="col-principle1">Principle1 Back-Office Partnership</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="border-bottom:1px solid var(--border-glass);">
-              <td style="padding:18px 20px; font-weight:600;">Pricing & Fee Structure</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">As per broker requirements</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-gold-light); font-weight:700;">Pay Only When Loan Closes</td>
-            </tr>
-            <tr style="border-bottom:1px solid var(--border-glass);">
-              <td style="padding:18px 20px; font-weight:600;">Volume Flexibility</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">Fixed Capacity (Overworked in Peaks / Costly in Lows)</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-cyan); font-weight:700;">Infinitely Scalable (1 to 500+ Loans/Mo)</td>
-            </tr>
-            <tr style="border-bottom:1px solid var(--border-glass);">
-              <td style="padding:18px 20px; font-weight:600;">Operating Window</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">24 * 7 Support</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-emerald); font-weight:700;">All US Time Zones (EST, CST, MST, PST)</td>
-            </tr>
-            <tr style="border-bottom:1px solid var(--border-glass);">
-              <td style="padding:18px 20px; font-weight:600;">Underwriting Touches</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">3 to 5 Condition Resubmissions</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-cyan); font-weight:700;">Target ≤10 Conditions / 2-Touch Approvals</td>
+            <tr>
+              <td class="cell-feature">Pricing & Fee Structure</td>
+              <td class="cell-traditional">As per broker requirements</td>
+              <td class="cell-principle1">Pay Only When Loan Closes</td>
             </tr>
             <tr>
-              <td style="padding:18px 20px; font-weight:600;">Audit & QC Safeguards</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--text-sub);">Basic Internal Review</td>
-              <td style="padding:18px 20px; text-align:center; color:var(--accent-gold-light); font-weight:700;">Zero-Defect Pre & Post-Closing Audit Guarantee</td>
+              <td class="cell-feature">Volume Flexibility</td>
+              <td class="cell-traditional">Fixed Capacity (Overworked in Peaks / Costly in Lows)</td>
+              <td class="cell-principle1">Infinitely Scalable (1 to 500+ Loans/Mo)</td>
+            </tr>
+            <tr>
+              <td class="cell-feature">Operating Window</td>
+              <td class="cell-traditional">24 * 7 Support</td>
+              <td class="cell-principle1" style="color:var(--accent-emerald);">All US Time Zones (EST, CST, MST, PST)</td>
+            </tr>
+            <tr>
+              <td class="cell-feature">Underwriting Touches</td>
+              <td class="cell-traditional">3 to 5 Condition Resubmissions</td>
+              <td class="cell-principle1">Target ≤10 Conditions / 2-Touch Approvals</td>
+            </tr>
+            <tr>
+              <td class="cell-feature">Audit & QC Safeguards</td>
+              <td class="cell-traditional">Basic Internal Review</td>
+              <td class="cell-principle1">Zero-Defect Pre & Post-Closing Audit Guarantee</td>
             </tr>
           </tbody>
         </table>
@@ -292,10 +292,10 @@ include 'header.php';
   </section>
 
   <!-- CTA Banner -->
-  <section style="padding:80px 0; background:var(--grad-cyan); text-align:center; color:#fff;">
+  <section class="cta-banner-glass">
     <div class="container">
-      <h2 style="font-size:2.4rem; margin-bottom:16px;">Ready to Elevate Your Mortgage Processing?</h2>
-      <p style="font-size:1.1rem; max-width:650px; margin:0 auto 30px auto;">
+      <h2>Ready to Elevate Your Mortgage Processing?</h2>
+      <p>
         Speak with our senior processing team today and receive a free file audit and processing proposal.
       </p>
       <a href="https://wa.me/971585738055" target="_blank" class="btn btn-gold" style="font-size:1.05rem; padding:16px 36px;">

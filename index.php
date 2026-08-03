@@ -4,7 +4,7 @@ $pageDesc = "Premier US Mortgage Processing, End-to-End Processing, Closing & Fu
 include 'header.php';
 ?>
 
-<main style="background:var(--bg-main); flex:1 0 auto;">
+<main class="main-wrapper">
 
   <!-- Hero Section -->
   <section class="hero-section">
@@ -64,6 +64,42 @@ include 'header.php';
         <div class="stat-card">
           <div class="stat-num">All<span> US</span></div>
           <div class="stat-label">Time Zones Coverage</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- US Trust & Compliance Strip -->
+  <section class="us-trust-bar">
+    <div class="container">
+      <div class="trust-badges-grid">
+        <div class="trust-badge-item">
+          <i class="fa-solid fa-file-shield"></i>
+          <div class="trust-badge-text">
+            <h5>NMLS & TRID Compliant</h5>
+            <p>100% Zero-Defect Fee & LE/CD Balancing</p>
+          </div>
+        </div>
+        <div class="trust-badge-item">
+          <i class="fa-solid fa-laptop-code"></i>
+          <div class="trust-badge-text">
+            <h5>AUS Execution Certified</h5>
+            <p>Fannie Mae DU & Freddie Mac LPA</p>
+          </div>
+        </div>
+        <div class="trust-badge-item">
+          <i class="fa-solid fa-vault"></i>
+          <div class="trust-badge-text">
+            <h5>SOC-2 Type II Vault</h5>
+            <p>Bank-Grade 256-Bit Encrypted Data</p>
+          </div>
+        </div>
+        <div class="trust-badge-item">
+          <i class="fa-solid fa-handshake-angle"></i>
+          <div class="trust-badge-text">
+            <h5>Pay Upon Closing</h5>
+            <p>$0 Monthly Retainer Risk</p>
+          </div>
         </div>
       </div>
     </div>
@@ -467,88 +503,13 @@ include 'header.php';
     </div>
   </section>
 
-  <!-- Executive Leadership & Founder Section -->
-  <section style="padding:100px 0; background:var(--bg-surface-1); border-top:1px solid var(--border-glass);">
-    <div class="container">
-      <div class="section-header">
-        <div class="subtitle-badge subtitle-badge-gold"><i class="fa-solid fa-user-tie"></i> Corporate Leadership</div>
-        <h2>Meet Our <span class="text-gradient-cyan">Founders & Managing Directors</span></h2>
-        <p>Driving operational excellence, zero-defect processing standards, and US mortgage back-office partnerships across all 50 states.</p>
-      </div>
 
-      <div class="founders-grid">
-        
-        <!-- Founder 1: Nikhil George Bose -->
-        <div class="glass-card founder-card">
-          <a href="https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/" target="_blank" class="founder-photo-link cyan" title="View Nikhil George Bose on LinkedIn">
-            <img src="images/nikhil_bose.jpg" alt="Nikhil George Bose - Founder & Managing Director" class="founder-photo-img">
-          </a>
-          <div class="founder-info">
-            <div class="founder-header-row">
-              <div>
-                <h3>Nikhil George Bose</h3>
-                <div class="founder-title text-cyan">
-                  Founder & Managing Director
-                </div>
-              </div>
-              <a href="https://www.linkedin.com/in/nikhil-george-bose-8a9a63353/" target="_blank" class="btn btn-sm btn-primary" style="padding:7px 16px; font-size:0.82rem;">
-                <i class="fa-brands fa-linkedin"></i> LinkedIn
-              </a>
-            </div>
-            <p class="founder-bio">
-              Nikhil George Bose co-leads Principle 1 Professional Services with a commitment to delivering high-volume, 100% compliant US mortgage back-office operations. He specializes in AUS DU/LPA underwriter support, closing disclosure balancing, and quality control auditing.
-            </p>
-            <div class="founder-checkmarks">
-              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> Cross-Border Operations Leader</span>
-              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> US Mortgage Back-Office Architect</span>
-            </div>
-            <div style="padding-top:2px;">
-              <a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600; font-size:0.92rem;">
-                <i class="fa-solid fa-envelope"></i> nick@principle1pro.com
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Founder 2: Georgee Jacob -->
-        <div class="glass-card founder-card">
-          <a href="mailto:George@principle1pro.com" class="founder-photo-link gold" title="Contact Georgee Jacob Direct">
-            <img src="images/george_jacob.jpg" alt="Georgee Jacob - Founder & Managing Director" class="founder-photo-img">
-          </a>
-          <div class="founder-info">
-            <div class="founder-header-row">
-              <div>
-                <h3>Georgee Jacob</h3>
-                <div class="founder-title text-gold">
-                  Founder & Managing Director
-                </div>
-              </div>
-              <a href="mailto:George@principle1pro.com" class="btn btn-sm btn-gold" style="padding:7px 16px; font-size:0.82rem;">
-                <i class="fa-solid fa-envelope"></i> Contact Direct
-              </a>
-            </div>
-            <p class="founder-bio">
-              Georgee Jacob co-leads Principle 1 Professional Services, overseeing strategic broker partnerships, operational scaling, and nationwide back-office efficiency across all US time zones.
-            </p>
-            <div class="founder-checkmarks">
-              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> Strategic Partner Relations</span>
-              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> All US Time Zone Operations</span>
-            </div>
-            <div style="padding-top:2px;">
-              <a href="mailto:George@principle1pro.com" style="color:#F59E0B; font-weight:600; font-size:0.92rem;">
-                <i class="fa-solid fa-envelope"></i> George@principle1pro.com
-              </a>
-            </div>
-          </div>
-      </div>
-    </div>
-  </section>
 
   <!-- CTA Footer Banner -->
-  <section style="padding:80px 0; background:var(--grad-cyan); text-align:center; position:relative;">
+  <section class="cta-banner-glass">
     <div class="container">
-      <h2 style="font-size:2.4rem; color:#fff; margin-bottom:16px;">Ready to Accelerate Your Loan Turnaround Times?</h2>
-      <p style="color:rgba(255,255,255,0.9); font-size:1.1rem; max-width:650px; margin:0 auto 30px auto;">
+      <h2>Ready to Accelerate Your Loan Turnaround Times?</h2>
+      <p>
         Join hundreds of satisfied US loan officers and brokers. Get zero-defect processing with no monthly retainer fees.
       </p>
       <a href="https://wa.me/971585738055" target="_blank" class="btn btn-gold" style="font-size:1.05rem; padding:16px 36px;">

@@ -4,10 +4,10 @@ $pageDesc = "Learn about Principle 1 Professional Services, founded by Nikhil Ge
 include 'header.php';
 ?>
 
-<main style="background:var(--bg-main); flex:1 0 auto; min-height:100vh;">
+<main class="main-wrapper">
 
   <!-- Page Header Hero -->
-  <section style="padding:80px 0 60px 0; background:var(--bg-surface-1); border-bottom:1px solid var(--border-glass); text-align:center;">
+  <section class="page-hero-skyline">
     <div class="container">
       <div class="subtitle-badge subtitle-badge-gold">
         <i class="fa-solid fa-building"></i> Corporate Overview
@@ -38,11 +38,11 @@ include 'header.php';
 
         <div class="story-stats-grid">
           <div style="background:var(--bg-surface-1); padding:20px; border-radius:var(--radius-md); border:1px solid var(--border-glass);">
-            <div style="font-size:1.8rem; font-weight:800; color:#38BDF8; font-family:var(--font-heading);">100%</div>
+            <div style="font-size:1.8rem; font-weight:800; color:#D4AF37; font-family:var(--font-heading);">100%</div>
             <div style="font-size:0.85rem; color:var(--text-sub); text-transform:uppercase;">Compliant & Audit Ready</div>
           </div>
           <div style="background:var(--bg-surface-1); padding:20px; border-radius:var(--radius-md); border:1px solid var(--border-glass);">
-            <div style="font-size:1.8rem; font-weight:800; color:#38BDF8; font-family:var(--font-heading);">All US</div>
+            <div style="font-size:1.8rem; font-weight:800; color:#D4AF37; font-family:var(--font-heading);">All US</div>
             <div style="font-size:0.85rem; color:var(--text-sub); text-transform:uppercase;">Time Zones Covered</div>
           </div>
         </div>
@@ -90,7 +90,7 @@ include 'header.php';
               <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> US Mortgage Back-Office Architect</span>
             </div>
             <div style="padding-top:2px;">
-              <a href="mailto:nick@principle1pro.com" style="color:#38BDF8; font-weight:600; font-size:0.92rem;">
+              <a href="mailto:nick@principle1pro.com" style="color:#D4AF37; font-weight:600; font-size:0.92rem;">
                 <i class="fa-solid fa-envelope"></i> nick@principle1pro.com
               </a>
             </div>
@@ -284,13 +284,13 @@ include 'header.php';
   </section>
 
   <!-- CTA Banner -->
-  <section style="padding:80px 0; background:var(--grad-gold); text-align:center; color:#fff;">
+  <section class="cta-banner-glass">
     <div class="container">
-      <h2 style="font-size:2.4rem; margin-bottom:16px; font-weight:800; color:#fff;">Experience $100K-Quality Mortgage Processing</h2>
-      <p style="font-size:1.1rem; max-width:650px; margin:0 auto 30px auto; font-weight:500; color:#E2E8F0;">
+      <h2>Experience $100K-Quality Mortgage Processing</h2>
+      <p>
         Let Principle 1 Professional Services handle your back-office heavy lifting so you can focus on locking more loans.
       </p>
-      <a href="https://wa.me/971585738055" target="_blank" class="btn btn-primary" style="font-size:1.05rem; padding:16px 36px;">
+      <a href="https://wa.me/971585738055" target="_blank" class="btn btn-gold" style="font-size:1.05rem; padding:16px 36px;">
         <i class="fa-brands fa-whatsapp"></i> Get Started on WhatsApp
       </a>
     </div>

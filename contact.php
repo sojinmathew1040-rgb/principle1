@@ -5,7 +5,7 @@ include 'header.php';
 ?>
 
   <!-- Page Header Hero -->
-  <section style="padding:80px 0 60px 0; background:var(--bg-surface-1); border-bottom:1px solid var(--border-glass); text-align:center;">
+  <section class="page-hero-skyline">
     <div class="container">
       <div class="subtitle-badge subtitle-badge-gold">
         <i class="fa-solid fa-headset"></i> Connect With Our Team
@@ -54,7 +54,7 @@ include 'header.php';
               <h5>Executive Leadership Contact</h5>
               <div style="display:flex; flex-direction:column; gap:12px; margin-top:8px;">
                 <div style="display:flex; align-items:center; gap:12px;">
-                  <img src="images/nikhil_bose.jpg" alt="Nikhil George Bose" style="width:46px; height:46px; border-radius:50%; object-fit:cover; object-position:center 20%; border:2px solid #38BDF8; box-shadow:0 4px 12px rgba(56,189,248,0.3);">
+                  <img src="images/nikhil_bose.jpg" alt="Nikhil George Bose" style="width:46px; height:46px; border-radius:50%; object-fit:cover; object-position:center 20%; border:2px solid #D4AF37; box-shadow:0 4px 12px rgba(212,175,55,0.3);">
                   <div>
                     <div style="font-weight:700; color:var(--text-main); font-size:0.95rem;">Nikhil George Bose</div>
                     <a href="mailto:nick@principle1pro.com" style="color:var(--accent-cyan); font-weight:600; font-size:0.88rem;"><i class="fa-solid fa-envelope"></i> nick@principle1pro.com</a>
