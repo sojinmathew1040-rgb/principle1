@@ -114,7 +114,7 @@ include 'header.php';
               </a>
             </div>
             <p class="founder-bio">
-               Georgee co-leads Principle 1 Professional Services with a commitment to delivering high-volume, 100% compliant US mortgage back-office operations. He specializes in AUS DU/LPA underwriter support, closing disclosure balancing, and quality control auditing.            </p>
+               Georgee Jacob co-leads Principle 1 Professional Services with a commitment to delivering high-volume, 100% compliant US mortgage back-office operations. He specializes in AUS DU/LPA underwriter support, closing disclosure balancing, and quality control auditing.            </p>
             <div class="founder-checkmarks">
               <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> US Mortgage Back-Office Architect</span>
               <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> All US Time Zone Operations</span>
