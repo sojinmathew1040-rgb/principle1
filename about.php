@@ -83,9 +83,11 @@ include 'header.php';
               </a>
             </div>
             <p class="founder-bio">
-                 Nikhil George Bose co-leads Principle 1 Professional Services, overseeing strategic broker partnerships, operational scaling, and nationwide back-office efficiency across all US time zones.            </p>
+              Nikhil George Bose co-leads Principle 1 Professional Services, overseeing strategic broker partnerships, operational scaling, and nationwide back-office efficiency across all US time zones.
+            </p>
             <div class="founder-checkmarks">
               <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> Cross-Border Operations Leader</span>
+              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> Mergers & Acquisitions</span>
               <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> Strategic Partner Relations</span>
             </div>
             <div style="padding-top:2px;">
@@ -114,10 +116,11 @@ include 'header.php';
               </a>
             </div>
             <p class="founder-bio">
-               Georgee Jacob co-leads Principle 1 Professional Services with a commitment to delivering high-volume, 100% compliant US mortgage back-office operations. He specializes in AUS DU/LPA underwriter support, closing disclosure balancing, and quality control auditing.            </p>
+              Georgee Jacob co-leads Principle 1 Professional Services, driving high-volume, 100% compliant US mortgage back-office operations, AUS DU/LPA underwriting support, closing disclosure balancing, and quality control auditing.
+            </p>
             <div class="founder-checkmarks">
-              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> US Mortgage Back-Office Architect</span>
-              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> All US Time Zone Operations</span>
+              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> US Mortgage Operations Architect</span>
+              <span><i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> All US Time Zone Coverage</span>
             </div>
             <div style="padding-top:2px;">
               <a href="mailto:George@principle1pro.com" style="color:#FFFFFF; font-weight:600; font-size:0.92rem;">
@@ -125,6 +128,7 @@ include 'header.php';
               </a>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </section>
